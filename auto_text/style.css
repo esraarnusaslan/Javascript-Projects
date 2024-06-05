@@ -27,4 +27,27 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 2rem;
+}
+
+.container h1{
+    color: var(--text-color);
+    font-size: 5rem;
+}
+
+.animation_container, .text_cont{
+    display: flex;
+    gap: 1rem;
+    color: var(--text-color);
+    align-items: end;
+}
+
+.animation_container p{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.text_cont span{
+    font-size: 2.5rem;
+    line-height: 1.35;
 }
